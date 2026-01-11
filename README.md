@@ -1,52 +1,54 @@
-# Message Broadcast Code Exercise
+# mb-interview
 
-Thank you for taking the time to interview with us! 
+Thank you for taking the time to interview with us!
 
-This repository is designed to be a boilerplate to get you started with the coding exercise portion of the interview.
-You'll note that we have provided the following for you:
+## ✨ Features
 
-1. The [back-end](./back-end) directory with a basic [express-generator](https://expressjs.com/en/starter/generator.html) template 
-   
-AND
+- Modern and scalable architecture
 
-2. The [front-end](./front-end) directory with a basic [create-react-app](https://create-react-app.dev/) template
+## 📦 Installation
 
-## Set Up
+```bash
+# Clone the repository
+git clone https://github.com/amitdubeyup/mb-interview.git
+cd mb-interview
 
-Before starting, please fork, clone, or download the repository to your local machine.
+```
 
-Please navigate into both of these directories and execute `npm i` to install their dependencies while you familiarize yourself with the requirements below.
+## ⚙️ Configuration
 
-## Important Conditions
+Create a `.env` file in the root directory:
 
-1. You are encouraged to ask questions if something is unclear, we want you to succeed!
-2. You may use any _publicly available_ source (StackOverflow, API Documentation, etc) during the exercise, but you may __NOT__ use any snippets or code from previous projects.
-3. We encourage making use of multiple commits to display your familiarity with Git, and easy reversion in case you'd like to change your approach.
+```bash
+cp .env.example .env
+```
 
----
+Update the `.env` file with your configuration values.
 
-## Requirement 1
+## 🚀 Usage
 
-You are tasked with updating the ExpressJS server in the [back-end](./back-end) directory to:
+```bash
+# Add usage instructions here
+```
 
-1. On start up, fetch data from url: [https://jsonplaceholder.typicode.com/comments](https://jsonplaceholder.typicode.com/comments) and store it in any local database (sqlite, MySQL, MongoDB, Postgres).
-2. Host a GET endpoint that will return the data in the Table created/loaded in #1 as a JSON array of objects.
+## 📁 Project Structure
 
-## Requirement 2
+```
+mb-interview/
+├── .env.example
+├── README.md
+```
 
-Additionally, you will update the ReactJS application in [front-end](./front-end) directory to:
+## 🤝 Contributing
 
-3. Host a landing/index page with your name and a button linking to the following page:
-4. The second page will, on load, connect to the API from #2 in [Requirement 1](#requirement-1) to get the info stored in database and display it as an HTML Table (or Bootstrap/Material GRID for bonus points). 
-5. The second page should include two buttons:
-   - "Refresh" button (resend the API call from #4 and repopulate the Table)
-   - "Back" button to navigate to landing page from #3.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Submission
+## 📄 License
 
-Once you have completed the code exercise, please push the code to your own publicly accessible Git location (GitHub, GitLab, etc) and send the link to your point of contact.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Alternatively, you may create a ZIP file with your submission and send it via email, dropbox, or cloud drive to your proctor. 
-__Please remember to remove the `node_modules` directories to reduce file size before sending this way.__
+## 👤 Author
 
-Done! Thank you for your interest in Message Broadcast, we look forward to reviewing your code!
+**Amit Dubey**
+
+- GitHub: [@amitdubeyup](https://github.com/amitdubeyup)
