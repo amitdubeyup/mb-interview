@@ -1,54 +1,23 @@
-# mb-interview-task
+# Mb Interview Task
 
+## 📝 Description
 Thank you for taking the time to interview with us!
 
-## ✨ Features
+## 🚀 Technology Stack
+- **Primary**: Unknown
 
-- Modern and scalable architecture
-
-## 📦 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/amitdubeyup/mb-interview-task.git
-cd mb-interview-task
-
-```
-
-## ⚙️ Configuration
-
-Create a `.env` file in the root directory:
-
-```bash
-cp .env.example .env
-```
-
-Update the `.env` file with your configuration values.
-
-## 🚀 Usage
-
-```bash
-# Add usage instructions here
-```
-
-## 📁 Project Structure
-
-```
-mb-interview-task/
-├── .env.example
-├── README.md
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🛠️ Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:amitdubeyup/mb-interview-task.git
+   ```
+2. Navigate to the directory:
+   ```bash
+   cd mb-interview-task
+   ```
 
 ## 📄 License
+This project is licensed under the MIT License.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Amit Dubey**
-
-- GitHub: [@amitdubeyup](https://github.com/amitdubeyup)
+--- 
+*Generated and maintained as part of the digital portfolio synchronization.*
